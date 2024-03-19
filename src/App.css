@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+
+
+}
+
+.crsl {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.root {
+}
+
+.stepBox {
+  display: flex;
+  justify-content: right;
+}
+
+.top {
+  background-image: url("./image/top-bg.jpg");
+  width: 1640px;
+  height: 690px;
+}
+
+.middle {
+  display: flex;
+  background-color: white;
+  width: 1640px;
+  height: 690px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+}
+
+.card1 {
+  display: flex;
+  margin-left: 100px;
+  width: 450px;
 }
